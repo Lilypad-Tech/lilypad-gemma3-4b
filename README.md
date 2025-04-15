@@ -33,7 +33,7 @@ Once the Docker image has been pushed to Docker Hub, you can run the module on L
 ```sh
 export WEB3_PRIVATE_KEY=WEB3_PRIVATE_KEY
 
-lilypad run github.com/Lilypad-Tech/lilypad-gemma-3-4b:<COMMIT> \
+lilypad run github.com/Lilypad-Tech/lilypad-gemma-3-4b:a1807775c4df6e8b1912c5cf3ea1ca4072c5fe55 \
 -i request="$(echo -n '{
   "model": "MODEL_NAME:MODEL_VERSION",
   "messages": [{
